@@ -9,6 +9,7 @@
         <link  rel="stylesheet" href="/fontawesome-all.min.css">
         <link  rel="stylesheet" href="/fontawesome.min.css">
 
+        <meta name="description" content="Quality Cuts Lawn Care fulfills your property maintance needs. We handle lawn mowing, mulch & stone delivery, spring & fall clean up, and snow removal.">
     </head>
     <body>
 

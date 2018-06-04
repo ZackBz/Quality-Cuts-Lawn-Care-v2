@@ -22,7 +22,4 @@ class contactController extends Controller
       return back();
     }
 
-    // public function ShowView(){
-    //   return view('contact');
-    // }
 }

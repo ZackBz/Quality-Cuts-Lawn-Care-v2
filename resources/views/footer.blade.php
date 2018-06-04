@@ -30,6 +30,6 @@
 
     <!-- <hr> -->
     <div class="text-center my-4">
-        <img src="/images/logo-big.png" style="width: 300px;height: auto;">
+        <img src="/images/logo-big.png" style="width: 300px;height: auto;" alt="big logo image">
     </div>
 </footer>

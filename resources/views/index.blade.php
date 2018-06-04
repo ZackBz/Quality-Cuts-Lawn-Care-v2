@@ -7,7 +7,11 @@
 @endsection
 
 @section('content')
-            @yield('content')
+    <div class="pages">
+        <div id="page-index" class="page-visible">
+            @include('pages/home')
+        </div>
+    </div>
 @endsection
 
 @section('scripts')
