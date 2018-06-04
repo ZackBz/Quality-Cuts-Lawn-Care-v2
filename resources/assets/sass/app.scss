@@ -1,0 +1,58 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Nunito|Roboto');
+
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+html,body {
+    overflow-x: hidden;
+}
+.custom-modal-dialog {
+    max-width: 900px;
+    img {
+        width: 100%;
+    }
+}
+.logo-wrapper {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    img{
+        width: 100%;
+    }
+}
+
+.carousel-inner{
+    position: relative;
+}
+
+
+// @include media-breakpoint-up(xs) {
+//    .carousel-item {
+//     max-height: 200px;
+//     }
+// }
+// // @include media-breakpoint-up(sm) { ... }
+// @include media-breakpoint-up(md) {
+//    .carousel-item {
+//     max-height: 300px;
+//     }
+// }
+// @include media-breakpoint-up(lg) {
+//   .carousel-item {
+//     max-height: 500px;
+//     }
+// }
+// @include media-breakpoint-up(xl) { ... }
