@@ -10443,7 +10443,10 @@ body {
   width: 100%;
 }
 
+#app {
+  margin-top: 55px;
+}
+
 .carousel-inner {
   position: relative;
 }
-
