@@ -6,7 +6,10 @@
     <form class="" action="/upload" method="post" enctype="multipart/form-data">
         @csrf
         <div class="form-group">
-            <input class="form-control-file" type="file" name="images[]" multiple required>
+            <label for="fileupload" class="fileupload">
+                <input id="fileupload" type="file" name="images[]" multiple required>
+                <!-- <button type="button" class="btn btn-primary">Choose Files</button> -->
+            </label>
         </div>
         <div class="form-group">
             <label>Category</label>

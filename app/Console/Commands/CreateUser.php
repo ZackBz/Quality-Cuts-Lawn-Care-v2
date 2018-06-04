@@ -39,6 +39,9 @@ class CreateUser extends Command
      */
     public function handle()
     {
+        dump($this->argument('name'));
+        dump($this->argument('email'));
+        dump($this->argument('password'));
         $user = new User;
         $user->password = Hash::make($this->argument("password"));
         $user->name = $this->argument("name");
