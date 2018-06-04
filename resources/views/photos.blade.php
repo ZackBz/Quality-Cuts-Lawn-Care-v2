@@ -11,7 +11,7 @@
     <div class="row mb-3">
     @foreach($images->where('category', $category)->all() as $image)
         <div class="col-md-4">
-            <div class="card">
+            <div class="card mb-2">
                 <a href="#" data-toggle="modal" data-target="#image-{{$loop->parent->index}}-{{$loop->index}}"><img class="card-img-top" src="{{$image->url}}" alt="Card image cap"></a>
                 <div class="card-body">
                     <p class="card-text">{{$image->captions}}</p>

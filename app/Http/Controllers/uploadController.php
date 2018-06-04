@@ -29,7 +29,7 @@ class uploadController extends Controller
             $image->resize(500,null,function ($constraint) {
                 $constraint->aspectRatio();
             });
-            Storage::disk("s3")->put($path, (string) $image->encode(), [
+            Storage::disk("s3")->getDriver()->put($path, (string) $image->encode(), [
                 "visibility"=>"public",
             ]);
             $upload = new Upload;
