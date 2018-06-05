@@ -13,7 +13,10 @@ class photosController extends Controller
         $categories = $images->pluck('category')->unique();
         return view('photos', [
             "images" => $images,
-            "categories" => $categories
+            "categories" => $categories,
+            "remove" => false
         ]);
     }
+
+
 }

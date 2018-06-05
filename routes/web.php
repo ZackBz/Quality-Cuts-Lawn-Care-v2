@@ -21,6 +21,7 @@ Route::get('/views/{page}', function ($page) {
 });
 
 Route::post('/upload', "uploadController@upload");
+Route::post('/remove', "uploadController@remove");
 
 Route::get('/upload', "uploadController@uploadTest");
 
@@ -28,6 +29,7 @@ Route::post('/contact', "contactController@contact");
 
 
 Route::get('/photos', "photosController@showGalleryPage");
+Route::get('/remove', "uploadController@showRemoveGalleryPage");
 
 
 

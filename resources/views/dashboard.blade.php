@@ -8,18 +8,25 @@
                 <div class="card-header">Dashboard</div>
 
                 <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    You are logged in!
+                    You are logged in as <strong>{{ Auth::user()->name }}</strong>
                 </div>
             </div>
+
+            <div class="card mt-3">
+                <div class="card-header">Photo Gallery?</div>
+
+                <div class="list-group list-group-flush">
+                    <a href="/upload" class="list-group-item list-group-item-action">
+                        Add Images
+                    </a>
+                    <a href="/remove" class="list-group-item list-group-item-action">
+                        Remove Images
+                    </a>
+                </div>
+            </div>
+
             <form action="/logout" method="post">
                 @csrf
-                <a class="btn btn-primary mt-4" href="/upload">Upload Images</a>
                 <button type="submit" class="btn btn-danger mt-4">Logout</button>
             </form>
         </div>

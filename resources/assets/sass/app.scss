@@ -42,6 +42,18 @@ html,body {
     margin-top: 55px;
 }
 
+.gallery-remove {
+    position: absolute;
+    font-size: 1.2rem;
+    background: red;
+    opacity: 1;
+    color: white;
+    padding: 0.5rem;
+    right: 0;
+    top: 0;
+    border-radius: 5rem;
+}
+
 // @include media-breakpoint-up(xs) {
 //    .carousel-item {
 //     max-height: 200px;

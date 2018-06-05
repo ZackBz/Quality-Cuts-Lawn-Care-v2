@@ -46,4 +46,20 @@ class uploadController extends Controller
     {
         return view('upload');
     }
+
+    public function showRemoveGalleryPage()
+    {
+        $images = Upload::get();
+        $categories = $images->pluck('category')->unique();
+        return view('photos', [
+            "images" => $images,
+            "categories" => $categories,
+            "remove" => true
+        ]);
+    }
+
+    public function remove(Request $r) {
+        $u = Upload::find($r->id)->delete();
+        return back();
+    }
 }
