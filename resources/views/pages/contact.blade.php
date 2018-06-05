@@ -11,26 +11,26 @@
                 <!-- NAME -->
                 <div class="form-group">
                     <label for="name">Name:</label>
-                    <input type="input" name="name" class="form-control" placeholder="Enter name" required>
+                    <input autocomplete="qclc-contact" type="input" name="name" class="form-control" placeholder="Enter name" required>
                 </div>
 
                 <!-- Phone Number -->
                 <div class="form-group">
                     <label for="phoneNumber">Phone Number:</label>
-                    <input class="form-control" name="phone" type="tel" pattern="^\d{3}[- ]?\d{3}[- ]?\d{4}$" placeholder="Enter Phone Number" required oninvalid="this.setCustomValidity('Phone format should be 123-123-1234')"
+                    <input autocomplete="qclc-contact" class="form-control" name="phone" type="tel" pattern="^\d{3}[- ]?\d{3}[- ]?\d{4}$" placeholder="Enter Phone Number" required oninvalid="this.setCustomValidity('Phone format should be 123-123-1234')"
                     oninput="setCustomValidity('')">
                 </div>
 
                 <!-- Email -->
                 <div class="form-group">
                     <label for="email">Email Address:</label>
-                    <input type="email" name="email" class="form-control" placeholder="Enter email" required>
+                    <input autocomplete="qclc-contact" type="email" name="email" class="form-control" placeholder="Enter email" required>
                 </div>
 
                 <!-- Address -->
                 <div class="form-group">
                     <label for="address">Address:</label>
-                    <input type="input" name="address" class="form-control" placeholder="Enter address" required>
+                    <input autocomplete="qclc-contact" type="input" name="address" class="form-control" placeholder="Enter address" required>
                 </div>
 
                 <!-- Property -->
@@ -39,11 +39,11 @@
                     <br>
                     <div class="form-check form-check-inline">
                       <label class="form-check-label mr-3" for="residentialRadio">
-                          <input class="form-check-input" id="residentialRadio" type="radio" name="property" value="residential" required>Residential
+                          <input autocomplete="qclc-contact" class="form-check-input" id="residentialRadio" type="radio" name="property" value="residential" required>Residential
                       </label>
 
                       <label class="form-check-label" for="commercialRadio">
-                          <input class="form-check-input" id="commercialRadio" type="radio" name="property" value="commercial" required>Commercial
+                          <input autocomplete="qclc-contact" class="form-check-input" id="commercialRadio" type="radio" name="property" value="commercial" required>Commercial
                       </label>
                     </div>
                 </div>
@@ -52,7 +52,7 @@
                 <!-- Message -->
                 <div class="form-group">
                   <label for="textarea">Message:</label>
-                  <textarea class="form-control" placeholder="Enter Message:" rows="3"  name="message" required></textarea>
+                  <textarea autocomplete="qclc-contact" class="form-control" placeholder="Enter Message:" rows="3"  name="message" required></textarea>
                 </div>
 
                 <!-- Button -->

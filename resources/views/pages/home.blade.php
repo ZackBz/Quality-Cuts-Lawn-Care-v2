@@ -6,7 +6,7 @@
   </ol>
   <div class="carousel-inner">
       <div class="logo-wrapper">
-          <img src="/images/logo-big-white.png" alt="">
+          <img src="/images/logo-big-white.png" alt="big logo white">
       </div>
     <div class="carousel-item active">
       <img class="d-block w-100 test1" src="/images/qclctruck-imageslider.png" alt="First slide">
@@ -109,10 +109,10 @@
                 <img class="w-100 mb-3" src="/images/qclcspringmulch3.jpg" alt="Mulch">
               </div>
               <div class="col-md-4 text-center">
-                <img class="w-100 mb-3" src="/images/qclcpeatmoss2.jpg" alt="">
+                <img class="w-100 mb-3" src="/images/qclcpeatmoss2.jpg" alt="qclc peat moss">
               </div>
               <div class="col-md-4 text-center">
-                <img class="w-100 mb-3" src="/images/snowplow2.jpg" alt="">
+                <img class="w-100 mb-3" src="/images/snowplow2.jpg" alt="snow plow">
               </div>
             </div>
             <div class="text-center w-100">
