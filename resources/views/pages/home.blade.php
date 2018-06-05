@@ -51,7 +51,7 @@
             <div class="row featurette">
               <div class="col-md-7 order-md-2">
                 <h1 class="featurette-heading">Lawn Mowing</h1>
-                <h3><span class="text-muted">We take this one personally.</span></h3>
+                <h3><span class="text-muted">Take back your weekends.</span></h3>
                 <p class="lead">When you let Quality Cuts take care of your lawn care needs, you're not just investing in a beautiful looking lawn, you're also buying your free time back! Imagine coming home to a perfectly manicured lawn and being able to enjoy summer evenings doing as you please. Services may include mowing, bagging grass, fertilization, trimming shrubs/bushes, edging walks/drives and all services include blowing off all excess grass from walks/drives/etc.</p>
               </div>
               <div class="col-md-5 order-md-1">
@@ -64,7 +64,7 @@
             <div class="row featurette">
               <div class="col-md-7">
                 <h1 class="featurette-heading">Mulch and Stone Delivery</h1>
-                <h3><span class="text-muted">Let us do the hardwork.</span></h3>
+                <h3><span class="text-muted">Add a fresh look to your landscaping.</span></h3>
                 <p class="lead">Let us shovel it for you! Nothing helps add curb appeal to your property then freshening up of mulch or decorative rocks which are delivered and installed for your convenience.</p>
               </div>
               <div class="col-md-5">
@@ -90,7 +90,7 @@
             <div class="row featurette">
               <div class="col-md-7">
                 <h1 class="featurette-heading">Snow Removal</h1>
-                <h3><span class="text-muted">Save the hospital bills.</span></h3>
+                <h3><span class="text-muted">24/7 snow removal and salting.</span></h3>
                 <p class="lead">Servicing commerical and residential properties, we can remove snow and salt sidewalks, driveways, and parking lots.</p>
               </div>
               <div class="col-md-5">
