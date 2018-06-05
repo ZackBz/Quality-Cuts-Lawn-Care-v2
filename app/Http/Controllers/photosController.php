@@ -14,7 +14,6 @@ class photosController extends Controller
         return view('photos', [
             "images" => $images,
             "categories" => $categories,
-            "remove" => false
         ]);
     }
 

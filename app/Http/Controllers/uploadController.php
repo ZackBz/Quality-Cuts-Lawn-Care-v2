@@ -51,10 +51,9 @@ class uploadController extends Controller
     {
         $images = Upload::get();
         $categories = $images->pluck('category')->unique();
-        return view('photos', [
+        return view('removephotos', [
             "images" => $images,
             "categories" => $categories,
-            "remove" => true
         ]);
     }
 

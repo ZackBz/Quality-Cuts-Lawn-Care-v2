@@ -1,3 +1,5 @@
+@extends('layouts.main')
+@section('content')
 
 <div class="container">
 
@@ -13,12 +15,16 @@
 
     @foreach($images->where('category', $category)->all() as $image)
         <div class="col-md-4">
-            <div class="card mb-2">
-                <a href="#" data-toggle="modal" data-target="#image-{{$image->id}}"><img class="card-img-top" src="{{$image->url}}" alt="Card image cap"></a>
-                <div class="card-body">
-                    <p class="card-text">{{$image->captions}} </p>
+            <form action="/remove" method="post">
+                @csrf
+                <div class="card mb-2">
+                    <button type="submit" name="id" value="{{$image->id}}" class="gallery-remove">Remove &times;</button>
+                    <a href="#" data-toggle="modal" data-target="#image-{{$image->id}}"><img class="card-img-top" src="{{$image->url}}" alt="Card image cap"></a>
+                    <div class="card-body">
+                        <p class="card-text">{{$image->captions}} </p>
+                    </div>
                 </div>
-            </div>
+            </form>
         </div>
 
         <div class="modal" tabindex="-1" id="image-{{$image->id}}" role="dialog">
@@ -45,3 +51,6 @@
 
 
 </div>
+
+
+@endsection
