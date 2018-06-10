@@ -18,7 +18,10 @@
             <form action="/remove" method="post">
                 @csrf
                 <div class="card mb-2">
-                    <button type="submit" name="id" value="{{$image->id}}" class="gallery-remove">Remove &times;</button>
+                    <div class="image-buttons">
+                        <a class="btn btn-primary" href="/edit/{{$image->id}}" name="id" value="{{$image->id}}"><i class="fas fa-edit"></i></a>
+                        <button class="btn btn-danger" type="submit" name="id" value="{{$image->id}}"><i class="fas fa-times"></i></button>
+                    </div>
                     <a href="#" data-toggle="modal" data-target="#image-{{$image->id}}"><img class="card-img-top" src="{{$image->url}}" alt="Card image cap"></a>
                     <div class="card-body">
                         <p class="card-text">{{$image->captions}} </p>

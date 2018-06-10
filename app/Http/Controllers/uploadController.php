@@ -57,6 +57,23 @@ class uploadController extends Controller
         ]);
     }
 
+    public function showEditForm($id)
+    {
+        $upload = Upload::find($id);
+        return view('editphotos', [
+            "edit" => $upload
+        ]);
+    }
+
+    public function edit(Request $r)
+    {
+        $edit = Upload::find($r->id);
+        $edit->captions = ($r->caption);
+        $edit->save();
+        return redirect('/remove');
+
+    }
+
     public function remove(Request $r) {
         $u = Upload::find($r->id)->delete();
         return back();

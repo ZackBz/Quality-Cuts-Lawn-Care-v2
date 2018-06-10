@@ -20,7 +20,7 @@
                         Add Images
                     </a>
                     <a href="/remove" class="list-group-item list-group-item-action">
-                        Remove Images
+                        Manage Images
                     </a>
                 </div>
             </div>
