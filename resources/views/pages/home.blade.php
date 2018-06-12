@@ -68,7 +68,7 @@
                 <p class="lead">Let us shovel it for you! Nothing helps add curb appeal to your property then freshening up of mulch or decorative rocks which are delivered and installed for your convenience.</p>
               </div>
               <div class="col-md-5">
-                <img class="featurette-image img-fluid mx-auto" src="/images/qclcspringmulch3.jpg" alt="Quality Cuts Mulch">
+                <img class="featurette-image img-fluid mx-auto" src="/images/qclcspringmulch4.jpg" alt="Quality Cuts Mulch">
               </div>
             </div>
 
@@ -106,13 +106,13 @@
 
             <div class="row">
               <div class="col-md-4 text-center">
-                <img class="w-100 mb-3" src="/images/qclcspringmulch3.jpg" alt="Mulch">
+                <img class="w-100 mb-3" src="/images/qclcpic1.jpg" alt="Lawn Mower">
               </div>
               <div class="col-md-4 text-center">
                 <img class="w-100 mb-3" src="/images/qclcpeatmoss2.jpg" alt="qclc peat moss">
               </div>
               <div class="col-md-4 text-center">
-                <img class="w-100 mb-3" src="/images/snowplow2.jpg" alt="snow plow">
+                <img class="w-100 mb-3" src="/images/snowplow6.jpg" alt="snow plow">
               </div>
             </div>
             <div class="text-center w-100">
