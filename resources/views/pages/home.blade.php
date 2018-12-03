@@ -85,7 +85,7 @@
               </div>
             </div>
 
-          <!--  <hr class="featurette-divider my-5">
+           <hr class="featurette-divider my-5">
 
             <div class="row featurette">
               <div class="col-md-7">
@@ -97,7 +97,7 @@
                 <img class="featurette-image img-fluid mx-auto" src="/images/snowplow2.jpg" alt="Quality Cuts Mulch">
               </div>
             </div>
-          -->
+
 
             <hr class="featurette-divider my-5">
             <div>
