@@ -81,7 +81,7 @@
                 <p class="lead">Leaves in the fall? Debris in the spring? Whatever cleaning up your lawn needs, we can make it look its best.</p>
               </div>
               <div class="col-md-5 order-md-1">
-                <img class="featurette-image img-fluid mx-auto" src="/images/qclctrim2.png" alt="Quality Cuts Lawn Mower">
+                <img class="featurette-image img-fluid mx-auto" src="/images/before&AfterLeaves.jpg" alt="Quality Cuts Leave Cleanup">
               </div>
             </div>
 
