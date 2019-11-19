@@ -91,7 +91,8 @@
               <div class="col-md-7">
                 <h1 class="featurette-heading">Snow Removal</h1>
                 <h3><span class="text-muted">24/7 snow removal and salting.</span></h3>
-                <p class="lead">Servicing commercial and residential properties, we can remove snow and salt sidewalks, driveways, and parking lots.</p>
+                <p class="lead text-danger">I am no longer accepting any new customers for the 2019/20 season.</p>
+                {{-- Servicing commercial and residential properties, we can remove snow and salt sidewalks, driveways, and parking lots --}}
               </div>
               <div class="col-md-5">
                 <img class="featurette-image img-fluid mx-auto" src="/images/snowplow2.jpg" alt="Quality Cuts Mulch">
